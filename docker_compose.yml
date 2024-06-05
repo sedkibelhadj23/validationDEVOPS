@@ -34,7 +34,7 @@ services:
      - --config.my-cnf=/cfg/.my.cnf
      - --mysqld.address=mysqldb:3306
     volumes:
-      - "./:/cfg/.my.cnf"
+      - "./:/cfg/"
     ports:
       - 9104:9104
 volumes:
